@@ -11,7 +11,7 @@
 		517500F02D76384C00CCB0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517500EB2D76384C00CCB0D3 /* Assets.xcassets */; };
 		517500F12D76384C00CCB0D3 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517500EC2D76384C00CCB0D3 /* JokeView.swift */; };
 		517500F22D76384C00CCB0D3 /* JokeFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517500ED2D76384C00CCB0D3 /* JokeFinderApp.swift */; };
-		517500F52D7638AF00CCB0D3 /* JokeFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517500F42D7638AF00CCB0D3 /* JokeFinder.swift */; };
+		517500F52D7638AF00CCB0D3 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517500F42D7638AF00CCB0D3 /* Joke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		517500EB2D76384C00CCB0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		517500EC2D76384C00CCB0D3 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
 		517500ED2D76384C00CCB0D3 /* JokeFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFinderApp.swift; sourceTree = "<group>"; };
-		517500F42D7638AF00CCB0D3 /* JokeFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFinder.swift; sourceTree = "<group>"; };
+		517500F42D7638AF00CCB0D3 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 		517500F32D76388D00CCB0D3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				517500F42D7638AF00CCB0D3 /* JokeFinder.swift */,
+				517500F42D7638AF00CCB0D3 /* Joke.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				517500F12D76384C00CCB0D3 /* JokeView.swift in Sources */,
-				517500F52D7638AF00CCB0D3 /* JokeFinder.swift in Sources */,
+				517500F52D7638AF00CCB0D3 /* Joke.swift in Sources */,
 				517500F22D76384C00CCB0D3 /* JokeFinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
